@@ -3,12 +3,26 @@ $navbar-default-bg: black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 .center{
   text-align: center;
 }
 
+
+.jumbotron{
+  background-image: asset-url('shipping_bw.jpeg');
+  background-size: cover;
+  height: 450px ;
+  
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+
 #logo {
-  color: #fff;
+  color: gold;
   float: left;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 30px;
@@ -22,3 +36,19 @@ $navbar-default-bg: black;
   color: #fff;
   text-decoration: none;
 }
+
+.jumbotron h1{
+  color: gold;
+  text-shadow: 1px 1px 12px rgba(5,20,6,0.6);
+  font-size: 100px;
+  text-align: right;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+
+
+
+
+
